@@ -2,59 +2,87 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/alignment.css">
-  <link rel="stylesheet" href="./styles/common.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/hamburger-settings.css">
+    <link rel="stylesheet" href="./styles/alignment.css">
+    <link rel="stylesheet" href="./styles/common.css">
 </head>
 
 <body>
-  <div class="body-wrapper">
-    <!-- **** HEADER **** -->
-    <header class="page-header">
-      <div class="header-logo">
-        Logo (bg image)
-      </div>
-      <div class="header-right">
-        <ul class="header-main-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="header-social">
-          <div class="header-search-icon">
-            Поиск-иконка
-          </div>
-          <ul class="header-social-icons">
-            <li class="social-item"><a href="#">tg</a></li>
-            <li class="social-item"><a href="#">fb</a></li>
-            <li class="social-item"><a href="#">Inst</a></li>
-          </ul>
-        </div>
-      </div>
-    </header>
+    <div class="body-wrapper">
 
-    <!-- **** MAIN **** -->
-    <main class="page-main">
-      main
-    </main>
+        <!-- *********** -->
+        <nav id="hamburger-menu">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Info</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+                <a href="https://erikterwan.com/" target="_blank">
+                    <li>Show me more</li>
+                </a>
+            </ul>
+        </nav>
+        <!-- ********** -->
 
-    <!-- **** ASIDES **** -->
-    <aside class="page-aside-1">
-      aside-1
-    </aside>
-    <aside class="page-aside-2">
-      aside-2
-    </aside>
+        <!-- **** HEADER **** -->
+        <header class="page-header">
+            <div class="header-logo">
+                Logo (bg image)
+            </div>
+            <div class="header-right">
+                <ul class="header-main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="header-social">
+                    <div class="header-search-icon">
+                        Поиск-иконка
+                    </div>
+                    <ul class="header-social-icons">
+                        <li class="social-item"><a href="#">tg</a></li>
+                        <li class="social-item"><a href="#">fb</a></li>
+                        <li class="social-item"><a href="#">Inst</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
 
-    <!-- **** FOOTER **** -->
-    <footer class="page-footer">
-      footer
-    </footer>
-  </div>
+        <!-- **** MAIN **** -->
+        <main class="page-main">
+            main
+        </main>
+
+        <!-- **** ASIDES **** -->
+        <aside class="page-aside-1">
+            aside-1
+        </aside>
+        <aside class="page-aside-2">
+            aside-2
+        </aside>
+
+        <!-- **** FOOTER **** -->
+        <footer class="page-footer">
+            footer
+        </footer>
+    </div>
 </body>
 
 </html>
