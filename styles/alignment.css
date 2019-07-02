@@ -94,13 +94,27 @@
 
 @media (max-width: 900px) {
     .body-wrapper {
-    grid-template-areas:
-    "header"
-    "aside-1"
-    "main"
-    "aside-2"
-    "footer";
-    grid-template-rows: 200px 150px 1fr 150px 200px;
-    grid-template-columns: 100%;
+        grid-template-areas:
+            "header"
+            "aside-1"
+            "main"
+            "aside-2"
+            "footer";
+        grid-template-rows: 200px 150px 1fr 150px 200px;
+        grid-template-columns: 100%;
+    }
+
+    .header-logo,
+    .header-main-menu,
+    .header-social-icons {
+        display: none;
+    }
+
+    .page-header {
+        justify-content: flex-end;
+    }
+
+    .header-social {
+        justify-content: flex-end;
     }
 }
