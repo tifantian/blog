@@ -131,7 +131,8 @@
     justify-content: space-around;
 }
 
-.aside-subscribe {
+.aside-subscribe,
+.aside-search {
     display: flex;
     flex-direction: column;
     align-items: center;
