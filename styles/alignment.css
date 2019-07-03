@@ -82,6 +82,26 @@
     justify-content: space-around;
 }
 
+.main-content {
+    display: flex;
+    /* justify-content: stretch; */
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.main-card {
+    padding: 5px;
+    border: 1px solid green;
+    width: 50%;
+}
+
 @media (max-width: 900px) {
     .body-wrapper {
         margin: 0;
