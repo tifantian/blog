@@ -102,6 +102,11 @@
     width: 50%;
 }
 
+.main-social {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width: 900px) {
     .body-wrapper {
         margin: 0;
@@ -123,5 +128,12 @@
     }
     #hamburger-menu {
         display: block;
+    }
+}
+
+@media (max-width: 650px) {
+    .main-card {
+        width: 100%;
+        min-width: 250px;
     }
 }
