@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="description" content="My very own personal website. Renewable Sources of Enegry.">
+    <meta name="google" content="notranslate">
+    <meta name="googlebot" content="index,follow">
+    <meta name="robots" content="index,follow">
+    <meta name="subject" content="Renewable blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description"
+        content="Renewable Sources of Enegry blog by Kirill Burmelov. Binary-Studio-Academy task 2019.">
+    <title>Renewable blog</title>
+    <link rel="shortcut icon" href="./images/ico/light.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/colors.css">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="./styles/hamburger-settings.css">
-    <link rel="stylesheet" href="./styles/alignment.css">
     <link rel="stylesheet" href="./styles/common.css">
 </head>
 
 <body>
     <div class="body-wrapper">
-        <!-- *********** -->
+        <!-- HAMBRGER SETTINGS -->
         <nav class="hamburger-menu">
             <input type="checkbox" />
             <span></span>
@@ -34,19 +40,27 @@
         <header class="page-header">
             <div class="header-logo-name">
                 <div class="header-logo">
-
+                    <!-- background-color-image -->
                 </div>
                 <div class="header-name">
-                    Renuwable Sources<br>Of Enenrgy
+                    Renewable Sources<br>Of Enenrgy
                 </div>
             </div>
+            <div class="header-search-icon search-mobile">
+                <button><i class="fas fa-search"></i></button>
+            </div>
             <div class="header-right">
-                <ul class="header-social">
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-youtube"></i></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
-                </ul>
+                <div class="header-social">
+                    <div class="header-search-icon">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <ul class="header-social-icons">
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-youtube"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
                 <ul class="header-main-menu">
                     <li><a href="#" class="menu-item">Home</a></li>
                     <li><a href="#" class="menu-item">About</a></li>
@@ -183,10 +197,11 @@
                                 <img src="./images/cards/news-5.jpg" alt="card" class="card-img">
                             </div>
                             <div class="card-name">
-                                Renuwables continue to add capacity despite glut
+                                Renewables continue to add capacity despite glut
                             </div>
                             <div class="main-description">
-                                ndia is looking at a mammoth $500 bn worth of investment in creating renewable energy
+                                India is londia is looking at a mammoth $500 bn worth of investment in creating
+                                renewable energy
                                 generation capacity with tendering of 500 GW by 2028 in addition to $250 bn investment.
                             </div>
                         </div>
@@ -238,7 +253,7 @@
                 <h2 class="aside-about-author section-name first">AUTHOR</h2>
                 <div class="aside-about-container">
                     <div class="aside-image-container">
-                        <img class="aside-about-image" src="./images/author-photo.jpg">
+                        <img class="aside-about-image" src="./images/author-photo.jpg" alt="author-photo">
                     </div>
                     <div class="aside-about-name">
                         Kyrylo Burmelov<br>
@@ -260,7 +275,7 @@
                 <ul class="aside-social-icons">
                     <li><i class="fab fa-facebook"></i></li>
                     <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-youtube"></i></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
                     <li><i class="fab fa-instagram"></i></li>
                 </ul>
             </section>
@@ -281,7 +296,7 @@
                 <h2 class="section-name">Tags</h2>
                 <ul class="aside-tags-container">
                     <li class="aside-tag"><a href="#" class="link-tag">Energy</a></li>
-                    <li class="aside-tag"><a href="#" class="link-tag">Renuwable</a></li>
+                    <li class="aside-tag"><a href="#" class="link-tag">Renewable</a></li>
                     <li class="aside-tag"><a href="#" class="link-tag">Sources</a></li>
                     <li class="aside-tag"><a href="#" class="link-tag">Alternate</a></li>
                     <li class="aside-tag"><a href="#" class="link-tag">Green Energy</a></li>
@@ -300,9 +315,9 @@
                             Joe Henderson
                         </div>
                         <span class="comment-date">2 days ago</span>
-                        <div class="comment-text">
-                            <!-- Dude, this is awesome. Thanks so much. -->
-                        </div>
+                        <p class="comment-text">
+                            Dude, this is awesome. Thanks so much.
+                        </p>
                     </div>
                 </div>
                 <div class="aside-comment-container">
@@ -314,9 +329,9 @@
                             Lora Pottlet
                         </div>
                         <span class="comment-date">17 days ago</span>
-                        <div class="comment-text">
-                            <!-- Unbelievable how fast alternative energy is developing. -->
-                        </div>
+                        <p class="comment-text">
+                            Unbelievable how fast alternative energy is developing.
+                        </p>
                     </div>
                 </div>
                 <div class="aside-comment-container">
@@ -328,9 +343,9 @@
                             Mike Hoslo
                         </div>
                         <span class="comment-date">18 days ago</span>
-                        <div class="comment-text">
-                            <!-- Like it! Renewable sources should take up 100% of all energy. -->
-                        </div>
+                        <p class="comment-text">
+                            Like it! Renewable sources should take up 100% of all energy.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -343,7 +358,7 @@
 
                 </div>
                 <div class="footer-name">
-                    Renuwable Sources<br> Of Enenrgy
+                    Renewable Sources<br> Of Enenrgy
                 </div>
             </div>
             <div class="footer-description">
