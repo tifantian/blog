@@ -1,5 +1,5 @@
-# blog
+# Blog
 
-## Reuable Sources Of Energy
+## Renewable Sources Of Energy
 
-home task №1 (HTML / CSS) Binary Studio Academy 2019
+Home task №1 (HTML / CSS) Binary Studio Academy 2019
