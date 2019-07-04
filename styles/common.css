@@ -97,7 +97,9 @@ body {
 }
 
 .card-img, 
-.aside-about-image {
+.aside-about-image,
+.image-container,
+.subscribe-form {
     width: 100%;
 }
 
@@ -105,10 +107,6 @@ body {
     border-radius: 50%;
     border: 2px solid whitesmoke;
     box-shadow: 2px 2px 5px black;
-}
-
-.image-container {
-    width: 100%;
 }
 
 .aside-image-container {
@@ -166,7 +164,8 @@ body {
 
 .aside-subscribe,
 .aside-search,
-.aside-tags {
+.aside-tags,
+.subscribe-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -281,7 +280,7 @@ body {
     font-style: italic;
 }
 
-.aside-subscribe input,
+.aside-subscribe .subscribe-form input:not([type="submit"]),
 .aside-search input {
     width: 100%;
     font-size: 18px;
@@ -292,11 +291,11 @@ body {
     margin-bottom: 10px;
 }
 
-.aside-subscribe button {
+.aside-subscribe .subscribe-btn {
+    display: block;
     cursor: pointer;
     width: 69%;
     font-size: 16px;
-    padding: 10px 20px;
     border-radius: 20px;
     border: 2px solid white;
     background-color: var(--header-color);
@@ -305,7 +304,7 @@ body {
     transition: 0.2s background-color ease;
 }
 
-.aside-subscribe button:hover {
+.aside-subscribe .subscribe-btn:hover {
     background-color: var(--specific-color);
 }
 
