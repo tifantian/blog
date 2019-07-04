@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,800,900&display=swap');
+
+body {
+    background-color: var(--body-background-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-logo-name .header-name,
+.footer-logo-name .footer-name {
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.page-header {
+    background: linear-gradient(var(--header-color), var(--specific-color));
+    border-bottom: 3px solid ghostwhite;
+}
+
+.header-logo,
+.footer-logo {
+    width: 150px;
+    height: 150px;
+    background: url('../images/logo.png') no-repeat top left;
+    background-size: cover;
+    
+}
+
+.header-name,
+.footer-name {
+    color: rgb(223, 224, 218);
+    text-shadow: 2px 3px 4px black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header-main-menu {
+    /* border: 1px solid red; */
+}
+
+.header-main-menu .menu-item {
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px 15px;
+    font-size: 16px;
+    background-color: #119DA4;
+    color: #D7D9CE;
+    text-decoration: none;
+    border-radius: 25px 25px;
+    border: 2px ridge white;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px black;
+    transition: 0.1s all ease;
+}
+
+.header-main-menu .menu-item:hover {
+    box-shadow: none;
+    transform: translate(0, 5px);
+    background-color: var(--hover-color);
+}
+
+.main-date {
+    font-style: italic;
+    color: rgb(95, 90, 90);
+    font-size: 16px;
+    background-color: rgb(196, 196, 253);
+}
+
+.card-name {
+    font-weight: bold;
+    background-color: rgb(190, 190, 190);
+    font-size: 23px;
+    text-align: justify;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.card-border {
+    border: 3px ridge rgb(30, 124, 179);
+}
+
+.main-description {
+    text-align: justify;
+}
+
+.main-social {
+    
+}
+
+.fab {
+    cursor: pointer;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 30%;
+    transition: 0.2s background-color ease;
+}
+
+.fab:hover {
+    /* outline: 2px solid black; */
+    
+    background-color: rgb(20, 188, 197);
+    /* color: #D7D9CE; */
+}
+
+.section-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: white 0 0 2px;
+    /* margin-top: 10px; */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.aside-about-image {
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px black;
+}
+
+.aside-image-container {
+    margin-right: 10px;
+}
+
+.aside-job {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.aside-subscribe input,
+.aside-search input {
+    width: 87%;
+    font-size: 18px;
+    height: 30px;
+    padding: 2px;
+    border: 2px solid var(--hover-color);
+    /* padding: 10px 20px; */
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.aside-subscribe button {
+    cursor: pointer;
+    width: 69%;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: var(--header-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s background-color ease;
+}
+
+.aside-subscribe button:hover {
+    background-color: var(--specific-color);
+}
+
+.section-name {
+    margin-top: 16px;
+}
+
+.section-name.first {
+    margin-top: 0;
+}
+
+.aside-form-search button {
+    border: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: scale(-1, 1);
+    transition: 0.24s background-color ease;
+}
+
+.aside-form-search button:hover {
+    background-color: var(--header-color);
+}
+
+.aside-form-search .fa-search {
+    font-size: 20px;
+}
+
+.aside-form-search {
+    display: flex;
+}
+
+.aside-tag .link-tag {
+    display: block;
+    font-weight: bold;
+    background-color: var(--hover-color);
+    margin: 4px 10px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s background-color ease;
+}
+
+.aside-tag .link-tag:hover {
+    background-color: var(--specific-color);
+}
+
+.aside-comments .comment-date {
+    font-size: 11px;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.comment-image-container .comment-image{
+    /* border: 2px solid var(--header-color); */
+    border-radius: 10px;
+    border: 2px dashed white;
+}
+
+.aside-comment-container {
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 57px;
+    padding: 5px;
+    transition: 0.2s background-color ease;
+    cursor: pointer;
+}
+
+.aside-comment-container:hover {
+    background: rgb(7, 78, 92);
+}
+
+.page-footer {
+    background-color: rgb(3, 32, 37);
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-description {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 10px;
+    color: white;
+}
