@@ -5,7 +5,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.header-logo-name .header-name {
+.header-logo-name .header-name,
+.footer-logo-name .footer-name {
     text-transform: uppercase;
     margin-left: 10px;
     font-weight: 700;
@@ -16,7 +17,8 @@ body {
     border-bottom: 3px solid ghostwhite;
 }
 
-.header-logo {
+.header-logo,
+.footer-logo {
     width: 150px;
     height: 150px;
     background: url('../images/logo.png') no-repeat top left;
@@ -24,7 +26,8 @@ body {
     
 }
 
-.header-name {
+.header-name,
+.footer-name {
     color: rgb(223, 224, 218);
     text-shadow: 2px 3px 4px black;
     font-weight: bold;
@@ -221,4 +224,25 @@ body {
 
 .aside-comment-container:hover {
     background: rgb(7, 78, 92);
+}
+
+.page-footer {
+    background-color: rgb(3, 32, 37);
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-description {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 10px;
+    color: white;
 }

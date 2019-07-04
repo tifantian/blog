@@ -1,4 +1,4 @@
-#hamburger-menu {
+.hamburger-menu {
     display: none;
     position: fixed;
     top: 20px;
@@ -6,7 +6,7 @@
     z-index: 1;
 }
 
-#hamburger-menu input {
+.hamburger-menu input {
     display: block;
     width: 40px;
     height: 32px;
@@ -18,7 +18,7 @@
     z-index: 2;
 }
 
-#hamburger-menu span {
+.hamburger-menu span {
     display: block;
     width: 33px;
     height: 4px;
@@ -31,35 +31,34 @@
     transition: transform 0.5s ease, background 0.5s ease, opacity 0.5s ease;
 }
 
-#hamburger-menu span:first-child {
+.hamburger-menu span:first-child {
     transform-origin: 0% 0%;
 }
 
-#hamburger-menu span:nth-last-child(2) {
+.hamburger-menu span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
 
-#hamburger-menu input:checked~span {
+.hamburger-menu input:checked~span {
     opacity: 1;
     transform: rotate(-315deg) translate(-2px, -1px);
     background: #232323;
 }
 
-#hamburger-menu input:checked~span:nth-last-child(3) {
+.hamburger-menu input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#hamburger-menu input:checked~span:nth-last-child(2) {
+.hamburger-menu input:checked~span:nth-last-child(2) {
     transform: rotate(315deg) translate(0, -1px);
 }
 
-#menu {
+.menu-slide {
     position: fixed;
-    width: 300px;
+    width: calc(100% + 50px);
     height: 105%;
     margin: -49px 0 0 -50px;
-    padding: 50px;
     padding-top: 125px;
     background: #ededed;
     list-style-type: none;
@@ -68,11 +67,30 @@
     transition: transform 0.5s ease;
 }
 
-#menu li {
-    padding: 10px 0;
-    font-size: 22px;
+.hamburger-menu input:checked~ul {
+    transform: none;
 }
 
-#hamburger-menu input:checked~ul {
-    transform: none;
+.menu-slide li {
+    text-align: center;
+    width: 100%;
+}
+
+.menu-slide a {
+    color: black;
+    cursor: pointer;
+    display: block;
+    padding: 9%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.menu-slide a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.menu-slide a:active {
+    opacity: 0.6;
 }
