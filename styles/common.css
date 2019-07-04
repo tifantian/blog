@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,800,900&display=swap');
 
 body {
-    background-color: var(--body-background-color);
+    /* background-color: var(--body-background-color); */
+    background: url('/images/header-background.jpg');
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
+    /* z-index: 0; */
+    /* opacity: 0.2; */
+    
 }
+
+.body-wrapper {
+    background-color: var(--body-background-color);
+}
+
 
 .header-logo-name .header-name,
 .footer-logo-name .footer-name {
@@ -77,6 +87,9 @@ body {
 
 .card-border {
     border: 3px ridge rgb(30, 124, 179);
+    background-color: rgb(225, 228, 217);
+    transition: 1.14s background-color linear;
+
 }
 
 .main-description {
@@ -247,4 +260,21 @@ body {
     margin-top: 10px;
     font-size: 10px;
     color: white;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container .card-img {
+    transform: scale(1);
+    transition: 2.14s transform linear;
+}
+
+.card-border:hover .card-img {
+    transform: scale(1.2);
+}
+
+.card-border:hover {
+    background-color: rgb(225, 240, 152);
 }
