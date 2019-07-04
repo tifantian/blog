@@ -173,29 +173,36 @@
 }
 
 .comment-image-container {
-    width: 80px;
+    width: 81px;
+    height: 30px;
+    margin-right: 10px;
+    min-width: 81px
 }
 
 .comment-image {
     width: 100%;
+    height: 48px;
 }
 
 .aside-comment-container {
     display: flex;
     height: 90px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .comment-text {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 150px;
+    width: 140px;
 }
 
 .header-search {
     align-self: flex-end;
     margin-right: 30px;
 }
+
 
 @media (max-width: 900px) {
     .body-wrapper {
@@ -216,6 +223,9 @@
     }
     .aside-image-container {
         width: 100px;
+    }
+    .comment-text {
+        width: 100%;        
     }
 }
 

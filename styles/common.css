@@ -194,3 +194,31 @@ body {
 .aside-tag .link-tag:hover {
     background-color: var(--specific-color);
 }
+
+.aside-comments .comment-date {
+    font-size: 11px;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.comment-image-container .comment-image{
+    /* border: 2px solid var(--header-color); */
+    border-radius: 10px;
+    border: 2px dashed white;
+}
+
+.aside-comment-container {
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 57px;
+    padding: 5px;
+    transition: 0.2s background-color ease;
+    cursor: pointer;
+}
+
+.aside-comment-container:hover {
+    background: rgb(7, 78, 92);
+}
